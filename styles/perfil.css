@@ -1,0 +1,46 @@
+#perfil {
+    display: flex;
+    min-height: calc(100vh - 91px);
+   
+}
+
+.perfil-container h2 {
+    font-size: 4rem; /* Tamanho da fonte */
+    color: #1d1d1d; /* Cor do título */
+    margin-bottom: 20px; /* Margem inferior */
+    text-align: left; /* Alinha o título à esquerda */
+}
+
+.perfil-info {
+    display: block; /* Muda para layout de bloco, pois não há mais imagem */
+    align-items: flex-start; /* Alinha os itens no topo */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    margin-top: 20px; /* Adiciona um espaço superior */
+}
+
+.perfil-detalhes {
+    max-width: 600px; /* Largura máxima do contêiner de detalhes */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.perfil-detalhes h3 {
+    font-size: 1.5rem; /* Tamanho da fonte do cabeçalho de detalhes */
+    margin-top: 20px; /* Margem superior */
+    color: #1d1d1d; /* Cor do cabeçalho */
+}
+
+.perfil-detalhes ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+}
+
+.perfil-detalhes ul li {
+    margin: 8px 0; /* Margem vertical */
+    font-size: 1rem; /* Tamanho da fonte dos itens da lista */
+    color: #1d1d1d; /* Cor do texto */
+}
+
+.perfil-detalhes p {
+    font-size: 1rem; /* Tamanho da fonte do parágrafo */
+    color: #1d1d1d; /* Cor do texto */
+}
