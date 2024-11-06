@@ -1,0 +1,45 @@
+#perfil {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    background-color: #111; /* Fundo escuro para a seção de perfil */
+    color: #fff; /* Texto branco */
+}
+
+.perfil-info h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #e94e00; /* Laranja para os subtítulos */
+    font-family: 'Eater', cursive;
+}
+
+.perfil-container h2 {
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 4rem;
+    color: #fff; /* Cor branca para o título */
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.perfil-info {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.perfil-detalhes h3 {
+    font-family: 'Eater', cursive;
+    font-size: 1.5rem;
+    color: #e94e00; /* Laranja para subtítulos */
+}
+
+.perfil-detalhes ul li {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #fff; /* Texto branco para as listas */
+}
+
+.perfil-detalhes p {
+    font-size: 1rem;
+    color: #fff; /* Texto branco para o parágrafo */
+}
