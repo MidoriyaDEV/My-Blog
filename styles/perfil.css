@@ -3,8 +3,13 @@
     min-height: calc(100vh - 91px);
    
 }
-
+.perfil-info h3 {
+    font-size: 1.5rem; /* Tamanho da fonte do cabeçalho de detalhes */
+    margin-top: 20px; /* Margem superior */
+    color: #1d1d1d; /* Cor do cabeçalho */
+}
 .perfil-container h2 {
+    font-family: 'Rubik Wet Paint', cursive;
     font-size: 4rem; /* Tamanho da fonte */
     color: #1d1d1d; /* Cor do título */
     margin-bottom: 20px; /* Margem inferior */
