@@ -1,37 +1,38 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    background-color: #000; /* Fundo preto para o cabeçalho */
 }
 
 #navbar {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Mantenha o espaço entre logo e menu */
+    justify-content: space-between;
 }
 
 #nav_logo {
     font-size: 24px;
+    color: #ff6600; /* Laranja para o logo */
 }
 
 #nav_list {
     display: flex;
     list-style: none;
     gap: 48px;
-    margin: 0 auto; /* Para centralizar os itens da lista */
-    justify-content: center; /* Centraliza os itens dentro do nav_list */
-    flex-grow: 1; /* Permite que o nav_list use o espaço disponível */
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .nav-item a {
     text-decoration: none;
-    color: #1d1d1dad;
-    font-weight: 600; /* Corrigido aqui, removido o "font" duplicado */
+    color: #fff; /* Cor branca para os links */
+    font-weight: 600;
 }
 
 .nav-item.active a {
-    color: #1d1d1d;
-    border-bottom: 3px solid #ffe100;
+    color: #ff6600; /* Laranja para o item ativo */
+    border-bottom: 3px solid #ff6600; /* Linha laranja embaixo do item ativo */
 }
 
 #mobile_btn {
@@ -43,11 +44,6 @@ header {
 }
 
 @media screen and (max-width: 1170px) {
-    #nav_list,
-    #navbar .btn-default {
-        display: none;
-    }
-    
     #mobile_btn {
         display: block;
         border: none;
@@ -73,4 +69,4 @@ header {
         list-style: none;
         text-align: center;
     }
-} 
+}

@@ -1,5 +1,6 @@
 footer {
-    background-color: #ffe8b4
+    background-color: #222; /* Fundo escuro para o rodapé */
+    color: #fff; /* Texto branco */
 }
 
 #footer_items {
@@ -10,8 +11,13 @@ footer {
 }
 
 #copyright {
-    color: #1d1d1d;
+    color: #ff6600; /* Laranja para o copyright */
     font-weight: 500;
+}
+
+.social-media-buttons a {
+    background-color: #ff6600; /* Botões sociais com fundo laranja */
+    color: #fff;
 }
 
 @media screen and (max-width: 600px) {

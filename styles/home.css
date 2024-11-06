@@ -14,10 +14,12 @@
 #cta .title {
     font-size: 4rem;
     color: #1d1d1dad;
+    font-family: 'Rubik Wet Paint', cursive;
 }
 
 #cta .title span {
     color: #e9a209;
+    font-family: 'Rubik Wet Paint', cursive;
 }
 
 #cta .description {
