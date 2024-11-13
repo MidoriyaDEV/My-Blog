@@ -1,9 +1,14 @@
+/* Imports de fontes e arquivos CSS externos */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url(header.css);
-@import url(home.css);
-@import url(footer.css);
-@import url(perfil.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Pacifico&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('footer.css');
+@import url('perfil.css');
 
+/* Estilos globais */
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -11,72 +16,76 @@
     box-sizing: border-box;
 }
 
+/* Fundo e cor do texto */
 body {
-    background-color: #fff9ea;
+    background: linear-gradient(45deg, #ff6600, #000); /* Gradiente laranja e preto */
+    color: #fff; /* Texto claro para contraste */
 }
 
-section {
-    padding: 28px 8%;
-}
-
+/* Estilo dos botões */
 .btn-default {
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffcb45;
+    background-color: #ff6600; /* Laranja de abóbora */
+    color: #fff;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
-    box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color .3s ease;
 }
 
 .btn-default:hover {
-    background-color: #f8d477;
-
+    background-color: #e94e00; /* Cor mais escura para hover */
 }
 
+/* Botões de redes sociais */
 .social-media-buttons {
     display: flex;
     gap: 18px;
 }
 
 .social-media-buttons a {
+    background-color: #111; /* Fundo escuro para os botões sociais */
+    color: #ff6600; /* Cor laranja para ícones */
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3); /* Sombras mais intensas */
     display: flex;
     align-items: center;
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: var(--color-neutral-0);
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
-    color: var(--color-neutral-1);;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .3s ease;
 }
+
 .social-media-buttons a:hover {
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.5); /* Efeito de sombra mais forte */
 }
 
+/* Títulos das seções */
 .section-title {
-    color: var(--color-primary-6);
-    font-size: 1.563rem;
+    color: #e94e00; /* Laranja para título */
 }
 
 .section-subtitle {
     font-size: 2.1875rem;
-} 
+    color: #fff; /* Cor branca para o subtítulo */
+}
 
+/* Estilo do banner */
 #banner {
     display: flex;
-    align-items: start;
-    justify-content: end;
-    width: 70%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
 }
 
 #banner img {
-    height: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(70%); /* Escurece a imagem para dar clima mais sombrio */
 }
