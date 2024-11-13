@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #perfil {
     display: flex;
     min-height: calc(100vh - 91px);
@@ -61,7 +61,7 @@
     color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
     font-family: 'Poppins', sans-serif;
 }
-=======
+
 #perfil {
     display: flex;
     min-height: calc(100vh - 91px);
@@ -124,4 +124,4 @@
     color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
     font-family: 'Poppins', sans-serif;
 }
->>>>>>> f79da5d1c3aa84a2bdb3fed415778429eca2be7c
+
