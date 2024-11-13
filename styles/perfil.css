@@ -1,7 +1,7 @@
 #perfil {
     display: flex;
     min-height: calc(100vh - 91px);
-    background: #ff6600
+    background: linear-gradient(45deg, #ff6600, #000);
 }
 
 .perfil-info {
@@ -13,19 +13,24 @@
 
 .perfil-info h3 {
     font-size: 2.5rem;
-    margin-top: 20px;
-    color: #d40c0c; /* Laranja mais suave para os subtítulos, para suavizar */
-    font-family: "Creepster", system-ui;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815), -2px -2px 4px rgba(0, 0, 0, 0.6); /* Sombras mais suaves e detalhadas */
+    color: #d40c0c;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 
+        2px 2px 4px black, 
+        -2px -2px 4px black, 
+        2px -2px 4px black, 
+        -2px 2px 4px black; /* Detalhes pretos nas letras */ 
 }
 
 .perfil-container h2 {
-    font-family: 'Rubik Wet Paint', cursive;
     font-size: 4rem;
-    color: #fff; /* Cor branca para o título */
-    margin-bottom: 20px;
-    text-align: left;
-    text-shadow: 4px 4px 6px rgb(0, 0, 0), -4px -4px 6px rgba(0, 0, 0, 0.8); /* Sombras mais escuras e suaves para destaque */
+    color: #d40c0c;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 
+        2px 2px 4px black, 
+        -2px -2px 4px black, 
+        2px -2px 4px black, 
+        -2px 2px 4px black; /* Detalhes pretos nas letras */ 
 }
 
 .perfil-detalhes {
@@ -33,10 +38,14 @@
 }
 
 .perfil-detalhes h3 {
-    font-family: "Creepster", system-ui;
     font-size: 2.5rem;
-    color: #d40c0c; /* Laranja mais forte para os subtítulos, mantendo a cor do Halloween */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815), -2px -2px 4px rgba(0, 0, 0, 0.6); /* Sombras mais suaves e detalhadas */
+    color: #d40c0c;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 
+        2px 2px 4px black, 
+        -2px -2px 4px black, 
+        2px -2px 4px black, 
+        -2px 2px 4px black; /* Detalhes pretos nas letras */ 
 }
 
 .perfil-detalhes ul li {
