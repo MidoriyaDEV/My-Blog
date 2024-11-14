@@ -36,3 +36,16 @@
     font-family: 'Rubik Wet Paint', cursive;
     box-sizing: border-box
 }
+.Include-Engenharia pre {
+    font-size: 1.2rem;
+    color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
+    font-family: 'Poppins', sans-serif;
+}
+#Banner3 {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente, se necessário /
+    justify-content: flex-end; / Alinha a imagem totalmente à direita */
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}

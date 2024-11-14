@@ -20,7 +20,8 @@
         2px 2px 4px black, 
         -2px -2px 4px black, 
         2px -2px 4px black, 
-        -2px 2px 4px black; /* Detalhes pretos nas letras */ 
+        -2px 2px 4px black; /* Detalhes pretos nas letras */
+        text-align: justify; 
 }
 
 .perfil-container h2 {
@@ -57,6 +58,11 @@
 }
 
 .perfil-detalhes p {
+    font-size: 1.2rem;
+    color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
+    font-family: 'Poppins', sans-serif;
+}
+.perfil-detalhes pre {
     font-size: 1.2rem;
     color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
     font-family: 'Poppins', sans-serif;
