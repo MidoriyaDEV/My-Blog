@@ -1,8 +1,3 @@
-#Include {
-    display: flex;
-    min-height: calc(100vh - 91px);
-    background: linear-gradient(45deg, #ff6600, #000);
-}   
 .Include-Engenharia h2 {
     font-size: 3.5rem;
     color: #eedf0a;
@@ -43,9 +38,14 @@
 }
 #Banner3 {
     display: flex;
-    align-items: center; /* Centraliza verticalmente, se necessário /
-    justify-content: flex-end; / Alinha a imagem totalmente à direita */
-    width: 100%;
+    justify-content: flex-end; 
+    margin-left: auto; 
+    margin-right: 3%;
     max-width: 900px;
+    height: auto;
+}
+
+#Banner3 img {
+    width: 100%; 
     height: auto;
 }

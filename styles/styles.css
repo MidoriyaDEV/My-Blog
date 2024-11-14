@@ -19,7 +19,7 @@
 
 /* Fundo e cor do texto */
 body {
-    background: linear-gradient(45deg, #ff6600, #000); /* Gradiente laranja e preto */
+    background: linear-gradient(45deg, #03030394, #000); /* Gradiente laranja e preto */
     color: #fff; /* Texto claro para contraste */
 }
 
