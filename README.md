@@ -22,13 +22,15 @@ Além disso, os participantes devem:
 
 ## 🖥️ Descrição do Projeto
 1️⃣ **Inicio da Pagina**  
-   O início de uma página, como eu vejo, é a primeira impressão que o visitante tem do conteúdo que ele vai encontrar. É basicamente uma introdução ao que está por vir, tanto visual quanto informativamente. Aqui estão alguns elementos que considero essenciais para a parte inicial de uma página:
+   O início de uma página, como eu vejo, é a primeira impressão que o visitante tem do conteúdo que ele vai encontrar. 
+   É basicamente uma introdução ao que está por vir, tanto visual quanto informativamente. 
 
-2️⃣ **Perfil Pessoal/Página: Perfil Acadêmico e Técnico**  
+2️⃣ **Perfil Pessoal/Perfil Acadêmico e Técnico**  
    Destaca meus interesses, hobbies e curiosidades.  
    Mostra um pouco da minha personalidade, conectando-a ao meu estilo de trabalho.
    Apresenta minha formação, habilidades e experiência.  
-   Responde à pergunta "Por que devo entrar na Include?", detalhando minha motivação e objetivos ao ingressar na empresa júnior.
+   Responde à pergunta "Por que devo entrar na Include?", 
+   detalhando minha motivação e objetivos ao ingressar na empresa júnior.
 
 3️⃣ **Página: Include Engenharia**  
    Introduz a Include Engenharia, destacando sua missão, visão, serviços e os cursos que compõem a empresa júnior.
