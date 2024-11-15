@@ -62,5 +62,10 @@
     color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
     font-family: 'Poppins', sans-serif;
 }
+.perfil-detalhes pre {
+    font-size: 1.2rem;
+    color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
+    font-family: 'Poppins', sans-serif;
+}
 
 
