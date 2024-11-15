@@ -16,9 +16,11 @@ $(document).ready(function() {
         var target = this.hash;
         var $target = $(target);
 
+        // Ajustando o cálculo do scroll para considerar a altura da navbar
+        var navbarHeight = $('#navbar').outerHeight(); 
         $('html, body').animate({
-            scrollTop: $target.offset().top - 50 
-        }, 1000, function() {
+            scrollTop: $target.offset().top - navbarHeight 
+        }, 600, function() { 
             window.location.hash = target;
         });
     });
@@ -52,3 +54,25 @@ $(document).ready(function() {
         }
     });
 });
+// ScrollReveal para animações das seções
+ScrollReveal().reveal('#cta', {
+    origin: 'left',
+    duration: 2000,
+    distance: '5%',
+    reset: true  
+});
+
+ScrollReveal().reveal('.perfil-container', {
+    origin: 'left',
+    duration: 2000,
+    distance: '5%',
+    reset: true  
+});
+
+ScrollReveal().reveal('.Include-Engenharia', {
+    origin: 'left',
+    duration: 2000,
+    distance: '5%',
+    reset: true  
+});
+

@@ -67,5 +67,7 @@
     color: #f4f4f4; 
     font-family: 'Poppins', sans-serif;
 }
-
+#perfil, #banner2, .img {
+    margin-top: 70px; /* Ajuste conforme necessário, dependendo da altura da sua navbar */
+}
 
