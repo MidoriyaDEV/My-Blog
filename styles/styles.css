@@ -36,7 +36,7 @@ body {
 }
 
 .btn-default:hover {
-    background-color: #e94e00; /* Cor mais escura para hover */
+    background-color: #e94e00; 
 }
 
 /* Botões de redes sociais */
@@ -46,9 +46,9 @@ body {
 }
 
 .social-media-buttons a {
-    background-color: #111; /* Fundo escuro para os botões sociais */
-    color: #ff6600; /* Cor laranja para ícones */
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3); /* Sombras mais intensas */
+    background-color: #111; 
+    color: #ff6600; 
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,17 +61,17 @@ body {
 }
 
 .social-media-buttons a:hover {
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.5); /* Efeito de sombra mais forte */
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.5); 
 }
 
 /* Títulos das seções */
 .section-title {
-    color: #e94e00; /* Laranja para título */
+    color: #e94e00; 
 }
 
 .section-subtitle {
     font-size: 2.1875rem;
-    color: #fff; /* Cor branca para o subtítulo */
+    color: #fff; 
 }
 
 /* Estilo do banner */
