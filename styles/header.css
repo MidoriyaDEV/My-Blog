@@ -33,8 +33,8 @@ header {
 #nav_logo {
     font-size: 24px;
     font-weight: bold;
-    color: #ff6600; /* Laranja para o logo */
-    transition: color 0.3s ease; /* Transição suave na cor */
+    color: #ff6600; 
+    transition: color 0.3s ease; 
 }
 
 /* Lista de navegação */
