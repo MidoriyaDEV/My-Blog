@@ -1,60 +1,54 @@
 $(document).ready(function() {
-    $('#mobile_btn').on('click', function () {
+    // Alterna o menu mobile
+    $('#mobile_btn').click(function() {
         $('#mobile_menu').toggleClass('active');
-        $('#mobile_btn').find('i').toggleClass('fa-x');
     });
 
-    const sections = $('section');
-    const navItems = $('.nav-item');
+    // Fechar o menu quando um item for clicado
+    $('#mobile_nav_list .nav-item a').click(function() {
+        $('#mobile_menu').removeClass('active');
+    });
 
-    $(window).on('scroll', function () {
-        const header = $('header');
-        const scrollPosition = $(window).scrollTop() - header.outerHeight();
+    // Rolagem suave para as seções
+    $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        
+        var target = this.hash;
+        var $target = $(target);
 
-        let activeSectionIndex = 0;
+        $('html, body').animate({
+            scrollTop: $target.offset().top - 50 
+        }, 1000, function() {
+            window.location.hash = target;
+        });
+    });
 
-        if (scrollPosition <= 0) {
-            header.css('box-shadow', 'none');
+    // Animação para acompanhar o scroll
+    $(window).scroll(function() {
+        var scrollDistance = $(window).scrollTop();
+        
+        // Alterna a classe 'active' nos itens do menu conforme a rolagem
+        $('#navbar ul li').each(function(i) {
+            var sectionOffset = $($(this).find('a').attr('href')).offset().top - 100; 
+
+            if (sectionOffset <= scrollDistance) {
+                $('#navbar ul li').removeClass('active');
+                $('#navbar ul li').eq(i).addClass('active');
+            }
+        });
+
+        // Efeito para fixar a navbar no topo
+        if (scrollDistance > 50) {
+            $('#navbar').addClass('fixed');  
         } else {
-            header.css('box-shadow', '5px 1px 5px rgba(0, 0, 0, 0.1');
+            $('#navbar').removeClass('fixed');  
         }
 
-        sections.each(function(i) {
-            const section = $(this);
-            const sectionTop = section.offset().top - 96;
-            const sectionBottom = sectionTop+ section.outerHeight();
-
-            if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                activeSectionIndex = i;
-                return false;
-            }
-        })
-
-        navItems.removeClass('active');
-        $(navItems[activeSectionIndex]).addClass('active');
+        // Efeito de mudança de cor ou opacidade da navbar
+        if (scrollDistance > 50) {
+            $('#navbar').css('background-color', 'rgba(0, 0, 0, 0.8)');  
+        } else {
+            $('#navbar').css('background-color', 'transparent');  
+        }
     });
-
-    ScrollReveal().reveal('#cta', {
-        origin: 'left',
-        duration: 2000,
-        distance: '20%'
-    });
-
-    ScrollReveal().reveal('.dish', {
-        origin: 'left',
-        duration: 2000,
-        distance: '20%'
-    });
-
-    ScrollReveal().reveal('#testimonial_chef', {
-        origin: 'left',
-        duration: 1000,
-        distance: '20%'
-    })
-
-    ScrollReveal().reveal('.feedback', {
-        origin: 'right',
-        duration: 1000,
-        distance: '20%'
-    })
 });

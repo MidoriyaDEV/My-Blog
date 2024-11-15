@@ -20,7 +20,7 @@
         2px 2px 4px black, 
         -2px -2px 4px black, 
         2px -2px 4px black, 
-        -2px 2px 4px black; /* Detalhes pretos nas letras */
+        -2px 2px 4px black; 
         text-align: justify; 
 }
 
@@ -32,11 +32,11 @@
         2px 2px 4px black, 
         -2px -2px 4px black, 
         2px -2px 4px black, 
-        -2px 2px 4px black; /* Detalhes pretos nas letras */ 
+        -2px 2px 4px black; 
 }
 
 .perfil-detalhes {
-    font-family: "Poppins", sans-serif; /* Fonte para o container de detalhes */
+    font-family: "Poppins", sans-serif; 
 }
 
 .perfil-detalhes h3 {
@@ -47,24 +47,24 @@
         2px 2px 4px black, 
         -2px -2px 4px black, 
         2px -2px 4px black, 
-        -2px 2px 4px black; /* Detalhes pretos nas letras */ 
+        -2px 2px 4px black; 
 }
 
 .perfil-detalhes ul li {
     margin: 8px 0;
     font-size: 1.2rem;
-    color: #ddd; /* Texto mais suave para as listas, contrastando melhor com o fundo escuro */
+    color: #ddd; 
     font-family: 'Poppins', sans-serif;
 }
 
 .perfil-detalhes p {
     font-size: 1.2rem;
-    color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
+    color: #f4f4f4; 
     font-family: 'Poppins', sans-serif;
 }
 .perfil-detalhes pre {
     font-size: 1.2rem;
-    color: #f4f4f4; /* Cor de texto mais suave para parágrafos */
+    color: #f4f4f4; 
     font-family: 'Poppins', sans-serif;
 }
 
