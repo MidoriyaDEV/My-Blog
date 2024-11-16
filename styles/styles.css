@@ -19,13 +19,13 @@
 
 /* Fundo e cor do texto */
 body {
-    background: linear-gradient(45deg, #03030394, #000); /* Gradiente laranja e preto */
-    color: #fff; /* Texto claro para contraste */
+    background: linear-gradient(45deg, #03030394, #000); 
+    color: #fff; 
 }
 
 /* Estilo dos botões */
 .btn-default {
-    background-color: #ff6600; /* Laranja de abóbora */
+    background-color: #ff6600; 
     color: #fff;
     border-radius: 12px;
     padding: 10px 14px;
