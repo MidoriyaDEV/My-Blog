@@ -33,10 +33,4 @@ footer {
     background-color: #e94e00; 
 }
 
-@media screen and (max-width: 600px) {
-    #footer_items {
-        flex-direction: column;
-        gap: 20px; 
-        text-align: center; 
-    }
-}
+
