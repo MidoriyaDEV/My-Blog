@@ -1,8 +1,9 @@
-
 #perfil {
     display: flex;
+    flex-direction: column; /* Ajusta para coluna em telas menores */
     min-height: calc(100vh - 91px);
     background: linear-gradient(45deg, #ff6600, #000);
+    padding: 20px; /* Adiciona espaçamento interno para evitar bordas muito justas */
 }
 
 .perfil-info {
@@ -12,62 +13,78 @@
     margin-top: 20px;
 }
 
-.perfil-info h3 {
-    font-size: 2.5rem;
-    color: #d40c0c;
-    font-family: 'Rubik Wet Paint', cursive;
-    text-shadow: 
-        2px 2px 4px black, 
-        -2px -2px 4px black, 
-        2px -2px 4px black, 
-        -2px 2px 4px black; 
-        text-align: justify; 
-}
-
+/* Ajustes para textos em telas menores */
+.perfil-info h3, 
+.perfil-detalhes h3, 
 .perfil-container h2 {
-    font-size: 4rem;
-    color: #d40c0c;
-    font-family: 'Rubik Wet Paint', cursive;
-    text-shadow: 
-        2px 2px 4px black, 
-        -2px -2px 4px black, 
-        2px -2px 4px black, 
-        -2px 2px 4px black; 
-}
-
-.perfil-detalhes {
-    font-family: "Poppins", sans-serif; 
-}
-
-.perfil-detalhes h3 {
-    font-size: 2.5rem;
-    color: #d40c0c;
-    font-family: 'Rubik Wet Paint', cursive;
-    text-shadow: 
-        2px 2px 4px black, 
-        -2px -2px 4px black, 
-        2px -2px 4px black, 
-        -2px 2px 4px black; 
+    font-size: 1.8rem; /* Reduz tamanho para melhorar a legibilidade */
+    text-align: center; /* Centraliza o texto */
 }
 
 .perfil-detalhes ul li {
-    margin: 8px 0;
-    font-size: 1.2rem;
-    color: #ddd; 
-    font-family: 'Poppins', sans-serif;
+    font-size: 1rem; /* Reduz o tamanho das listas */
+    text-align: left; /* Mantém o alinhamento à esquerda */
+    margin: 5px 0; /* Ajusta espaçamento entre itens */
 }
 
-.perfil-detalhes p {
-    font-size: 1.2rem;
-    color: #f4f4f4; 
-    font-family: 'Poppins', sans-serif;
-}
+.perfil-detalhes p, 
 .perfil-detalhes pre {
-    font-size: 1.2rem;
-    color: #f4f4f4; 
-    font-family: 'Poppins', sans-serif;
-}
-#perfil, #banner2, .img {
-    margin-top: 70px; 
+    font-size: 1rem; /* Ajusta o tamanho do texto */
+    text-align: justify; /* Mantém alinhamento justificado */
 }
 
+/* Ajustes de margem para evitar excesso em telas pequenas */
+#perfil, #banner2, .img {
+    margin-top: 50px; 
+}
+
+/* Responsividade específica para telas menores que 768px */
+@media (max-width: 768px) {
+    #perfil {
+        padding: 15px;
+        flex-direction: column; /* Garante alinhamento vertical */
+    }
+
+    .perfil-info h3, 
+    .perfil-container h2, 
+    .perfil-detalhes h3 {
+        font-size: 1.6rem; /* Reduz tamanho adicional para telas médias */
+        text-align: center; /* Centraliza todos os títulos */
+    }
+
+    .perfil-detalhes ul li {
+        font-size: 0.9rem; /* Ajusta o tamanho das listas para maior conforto visual */
+        margin: 4px 0;
+    }
+
+    .perfil-detalhes p, 
+    .perfil-detalhes pre {
+        font-size: 0.9rem; 
+    }
+}
+
+/* Responsividade específica para telas menores que 480px */
+@media (max-width: 480px) {
+    #perfil {
+        padding: 10px; /* Reduz o padding para otimizar espaço */
+    }
+
+    .perfil-info h3, 
+    .perfil-container h2, 
+    .perfil-detalhes h3 {
+        font-size: 1.4rem; /* Tamanho reduzido para dispositivos menores */
+    }
+
+    .perfil-detalhes ul li {
+        font-size: 0.8rem; /* Ajusta para melhor adaptação */
+    }
+
+    .perfil-detalhes p, 
+    .perfil-detalhes pre {
+        font-size: 0.8rem;
+    }
+
+    #perfil, #banner2, .img {
+        margin-top: 30px; /* Reduz margem em dispositivos menores */
+    }
+}
