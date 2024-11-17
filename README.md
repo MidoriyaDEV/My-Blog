@@ -44,4 +44,4 @@ Além disso, os participantes devem:
 Clone este repositório:
 
 ```bash
-git clone https://github.com/MidoriyaDEV/LandingPage-Halloween.git
+https://midoriyadev.github.io/My-LandingPage/
