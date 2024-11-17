@@ -41,7 +41,7 @@ Além disso, os participantes devem:
 - **JavaScript**: Animações e interatividade.
 
 ## 📋 Como Visualizar o Projeto
-Clone este repositório:
+Cole esse link:
 
 ```bash
-git clone https://github.com/MidoriyaDEV/LandingPage-Halloween.git
+https://midoriyadev.github.io/My-LandingPage/
